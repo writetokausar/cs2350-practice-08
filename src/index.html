@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <title>Project Starter</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- 
-    Don't add stylesheets/main.css or javascripts/main.js manually. 
-    They will be added automatically by Webpack.
-  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-  <!-- Your HTML goes here -->
-  <h1>Welcome to CS 2350!</h1>
-
+    
+    
+    <script>
+        document.writeln('<h1>12 x 12 Multiplication Table</h1>')
+        document.write('<table style="border: 1px solid black; border-collapse: collapse;"><tbody>')
+        
+        
+        for(let i = 1;i<= 12; i++){
+            document.write('<tr>')
+            for(let j = 1;j<=12; j++){
+                document.write('<td style="border: 1px solid black; border-collapse: collapse; padding-right: 25px; padding-top: 5px; padding-bottom: 5px; padding-left: 3px">' + j*i + '</td>')
+            }
+            document.writeln('</tr>')
+        }
+        document.write('</tbody></table>')
+    </script>
 </body>
 </html>
