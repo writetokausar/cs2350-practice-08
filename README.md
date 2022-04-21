@@ -24,4 +24,4 @@ When you are done with development and ready to deploy your application, run the
 npm run deploy
 ```
 
-This command will compile everything you have under the `src/` folder into the `dist/` folder. You then copy the contents of the `dist/` folder including subfolders into your web server.
+This command will compile everything you have under the `src/` folder into the `dist/` folder. You then copy the contents of the `dist/` folder including subfolders into your web servers.
